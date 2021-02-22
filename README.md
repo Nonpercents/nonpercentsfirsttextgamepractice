@@ -1,4 +1,4 @@
-# nonpercentsfirsttextgamepractice
+# Nonpercents's First Text Game Practice
 This is my first simple text adventure game in webpage
 
 I used some paragraphs from 'Text-based game' article of English Wikipedia for testing my game.
