@@ -30,7 +30,7 @@ function gamestatus(gamelevel) {
 }
 
 function maingame () {
-	document.getElementById('credit').innerHTML = "TEXT SELECT ADVENTURE GAME GAMES 1996–"+(new Date().getFullYear());
+	document.getElementById('credit').innerHTML = "TEXT SELECT ADVENTURE GAME GAMES 2021–"+(new Date().getFullYear());
 	for (i = 0; i<gamelist.length; i++) {
 		if (typeof gamelist[i][0] == "string" && gamelist[i].length == 3 && gamelist[i][1].length == gamelist[i][2].length) {
 			continue;
