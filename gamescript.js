@@ -1,4 +1,4 @@
-var chooseinequal = false
+var chooseinequal = false;
 
 function pleasewaitscene(golevel) {
 	document.getElementById('gametext').innerHTML = "PLEASE WAIT...";
