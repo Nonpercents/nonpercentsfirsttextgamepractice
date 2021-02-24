@@ -19,7 +19,7 @@ function gamestatus(gamelevel) {
 		document.getElementById('gametext').innerHTML = gamelist[gamelevel][0];
 		if (gamelist[gamelevel][1].length !== 0) {
 			for (i = 0; i<gamelist[gamelevel][1].length; i++){
-				gamelisttext += '<li><a onclick="pleasewaitscene('+gamelist[gamelevel][2][i]+');">'+gamelist[gamelevel][1][i]+'<a/></li>';
+				gamelisttext += '<li><a onclick="pleasewaitscene('+gamelist[gamelevel][2][i]+');">'+gamelist[gamelevel][1][i]+'</a></li>';
 			}
 			gamelisttext += '<br><small><i>choice loading ended.</i></small>';
 			document.getElementById('chooselevels').innerHTML = gamelisttext;
