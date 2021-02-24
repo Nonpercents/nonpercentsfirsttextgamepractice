@@ -5,6 +5,7 @@ html *
 }
 
 table, th, td {
+  overflow-wrap: break-word;
   border: 2px solid white;
   padding: 5px;
   border-collapse: collapse;
@@ -15,6 +16,21 @@ table, th, td {
   width:70%;
 }
 
-/* td:situationtext {
-  height: 400px;
-} */
+li {
+	padding-left: 10px;
+}
+
+a {
+	cursor: pointer;
+}
+
+div {	
+  font-family: Georgia, serif;
+}
+
+#tryagaingame {
+    bottom: 0;
+    right: 0;
+    text-align:right;
+    vertical-align:bottom;
+}
