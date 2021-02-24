@@ -3,7 +3,7 @@ var chooseinequal = false;
 function pleasewaitscene(golevel) {
 	document.getElementById('gametext').innerHTML = "PLEASE WAIT...";
 	document.getElementById('chooselevels').innerHTML = "PLEASE WAIT...";
-	setTimeout(function(){gamestatus(golevel)}, 500);
+	setTimeout(function(){gamestatus(golevel);}, 500);
 }
 
 function gameoutofrange() {
@@ -25,13 +25,13 @@ function gamestatus(gamelevel) {
 			document.getElementById('chooselevels').innerHTML = gamelisttext;
 		} else {
 			document.getElementById('chooselevels').innerHTML = '<small><i>this level of the game doesn&#39;t have any choice.<br><div align="center">(game over)</div></i></small>';
-			setTimeout(function(){document.getElementById('chooselevels').innerHTML +='<br><div align="center"><small><a onclick="pleasewaitscene(0)">CLICK THIS TO PLAY AGAIN</a></small></div>';}, 20000);
+			setTimeout(function(){document.getElementById('chooselevels').innerHTML +='<br><div id="tryagaingame"><small><a onclick="pleasewaitscene(0)">CLICK THIS TO PLAY AGAIN</a></small></div>';}, 20000);
 		}
 	}
 }
 
 function maingame () {
-	document.getElementById('credit').innerHTML = "TEXT SELECT ADVENTURE GAME GAMES 2021–"+(new Date().getFullYear());
+	document.getElementById('credit').innerHTML = "TEXT SELECT ADVENTURE GAME GAMES 1996–"+(new Date().getFullYear());
 	for (i = 0; i<gamelist.length; i++) {
 		if (typeof gamelist[i][0] == "string" && gamelist[i].length == 3 && gamelist[i][1].length == gamelist[i][2].length) {
 			continue;
