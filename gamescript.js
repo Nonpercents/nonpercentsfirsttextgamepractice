@@ -25,6 +25,7 @@ function gamestatus(gamelevel) {
 			document.getElementById('chooselevels').innerHTML = gamelisttext;
 		} else {
 			document.getElementById('chooselevels').innerHTML = '<small><i>this level of the game doesn&#39;t have any choice.<br><div align="center">(game over)</div></i></small>';
+			setTimeout(function(){document.getElementById('chooselevels').innerHTML +='<br><div align="center"><small><a onclick="pleasewaitscene(0)">CLICK THIS TO PLAY AGAIN</a></small></div>';}, 20000);
 		}
 	}
 }
