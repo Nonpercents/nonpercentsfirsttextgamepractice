@@ -1,4 +1,5 @@
 var gamelist=
 [["A text game or text-based game is an electronic game that uses a text-based user interface, that is, the user interface employs a set of encodable characters such as ASCII instead of bitmap or vector graphics.<br>Text-based games have been well documented since at least the 1960s, when teleprinters were interlaced with mainframe computers as a form of input, where the output was printed on paper. With that, notable titles were developed for those computers using the teleprinter in the 1960s and 1970s, and numerous more have been developed for video terminals since at least the mid-1970s, having reached their peak popularity in that decade and the 1980s, and continued as early online games into the mid-1990s.<br>Although generally replaced in favor of video games that utilize non-textual graphics, text-based games continue to be written by independent developers. They have been the basis of instigating genres of video gaming, especially adventure and role-playing video games.<br>Text is available under the Creative Commons Attribution-ShareAlike 3.0 Unported License.<br>https://en.wikipedia.org/wiki/Text-based_game",["ALPHA","EDM"],[1,2]],
-["This is alpha.",["ZERO"],[0]],
-["Text number generator",["RETURN TO ZERO","RETURN TO ONE"],[0,1]]];
+["This is alpha.",["ZERO","THREE"],[0,3]],
+["Text number generator",["RETURN TO ZERO","RETURN TO ONE"],[0,1]],
+["Nothing"],["Nothing"],[0]];
